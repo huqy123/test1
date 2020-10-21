@@ -1,0 +1,27 @@
+胡庆宇账号：lianditech\huqy    
+密码：Tzld.2020
+
+pom文件问题 maven  ====》update project
+maven clean 再maven install
+creyondApp-admin devtools ==start
+
+
+
+sts导入后台项目
+
+运行前端服务
+\\172.19.1.50\project1\20OT112DCREYOND\07．開発関連\tools
+
+打开vscode终端，输入：npm install ,下载前端工程所需的包
+打开vscode终端，输入：npm run dev,运行成功后会自动打开浏览器开启前端页面
+
+用户名：admin
+密码:admin123
+
+
+以后前端汇报：格式：页面名称 百分比（百分比包括联调算在里面）
+
+页面跳转传参统一采用这种方式：“this.$router.push({ path: '/news', query: { userId: 123 }});”
+接收参数：this.$route.query.userId
+
+var id= this.$route.query.id;
